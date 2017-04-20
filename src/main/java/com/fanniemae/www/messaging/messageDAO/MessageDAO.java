@@ -32,7 +32,7 @@ public class MessageDAO implements IMessageDAO {
 			stmt.setDate(3, msgDate);
 			if (stmt.executeUpdate() > 0) {
 				ResultSet genKeys = stmt.getGeneratedKeys();
-				if (genKeys != null && genKeys.next())
+				if (genKeys.next())
 					msgID = genKeys.getLong(1);
 				message.setMessageID(msgID);
 			}

@@ -30,7 +30,7 @@ public class CommentDAO implements ICommentDAO {
 			stmt.setLong(3, msgID);
 			if (stmt.executeUpdate() > 0) {
 				ResultSet genKeys = stmt.getGeneratedKeys();
-				if (genKeys != null && genKeys.next())
+				if (genKeys.next())
 					cmntID = genKeys.getLong(1);
 				comment.setCommentID(cmntID);
 			}
