@@ -1,0 +1,8 @@
+com\fanniemae\www\messaging\services\CommentService.class
+com\fanniemae\www\messaging\commentDAO\CommentDAO.class
+com\fanniemae\www\messaging\messageDTO\MessageDTO.class
+com\fanniemae\www\messaging\commentDTO\CommentDTO.class
+com\fanniemae\www\messaging\messageDAO\IMessageDAO.class
+com\fanniemae\www\messaging\commentDAO\ICommentDAO.class
+com\fanniemae\www\messaging\services\MessageService.class
+com\fanniemae\www\messaging\messageDAO\MessageDAO.class
