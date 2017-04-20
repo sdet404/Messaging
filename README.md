@@ -1,2 +1,2 @@
 # Messaging
-Messaging project #2 with Rest Services
+Messaging Project #2 with Rest Services
