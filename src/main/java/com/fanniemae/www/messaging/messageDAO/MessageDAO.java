@@ -60,6 +60,7 @@ public class MessageDAO implements IMessageDAO {
 					if (genKeys != null && genKeys.next())
 						cmntID = genKeys.getLong(1);
 					comment.setCommentID(cmntID);
+					comment.setMessageID(msgID);
 				}
 			} finally {
 				if (conn != null)
